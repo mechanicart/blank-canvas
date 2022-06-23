@@ -11,13 +11,17 @@
 
 <body>
   <div class="content">
+    <video id="video" muted loop autoplay src="https://media.w3.org/2010/05/sintel/trailer.webm"
+      controlsList="nodownload"></video>
     <canvas width="800" height="450"></canvas>
     <div class="buttons">
-      <button>Turn on PIP</button>
-      <button>Turn on camera</button>
+      <button id="pipToggle">Turn on PIP</button>
+      <button id="cameraToggle">Turn on camera</button>
     </div>
   </div>
   <script src="./index.js"></script>
+  <script src="./pip.js"></script>
+  <script src="./camera.js"></script>
 </body>
 
 </html>
