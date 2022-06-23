@@ -65,3 +65,15 @@ canvas {
     gap: 5px;
   }
 }
+
+video {
+  pointer-events: none;
+  background: #1e2327;
+  border-radius: 4px;
+  width: 100%;
+}
+
+video::-webkit-media-controls-panel {
+  display: none !important;
+  opacity: 1 !important;
+}
