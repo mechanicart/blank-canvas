@@ -30,9 +30,25 @@ body {
   height: 100vh;
 }
 
-canvas {
-  display: block;
+.content {
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.buttons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.buttons>button {}
+
+canvas {
   background-color: aqua;
 }
 
